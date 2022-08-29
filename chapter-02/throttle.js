@@ -26,9 +26,4 @@ var throttle = function (fn, interval) {
     }
 }
 
-timers.setInterval(() => {
-    throttle(function () {
-        console.log('1')
-    }, 500)
-}, 400)
 
